@@ -1,0 +1,48 @@
+name: Workday Application Status Checker
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # Every 30 minutes
+  workflow_dispatch:         # Manual trigger
+
+jobs:
+  run-checker:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install Dependencies
+      run: pip install requests
+
+    - name: Run Workday Scraper
+      env:
+        NVIDIA_COOKIE: ${{ secrets.NVIDIA_COOKIE }}
+        NVIDIA_CSRF: ${{ secrets.NVIDIA_CSRF }}
+        ADOBE_COOKIE: ${{ secrets.ADOBE_COOKIE }}
+        ADOBE_CSRF: ${{ secrets.ADOBE_CSRF }}
+        # Add more companies below as you expand
+        # AMAZON_COOKIE: ${{ secrets.AMAZON_COOKIE }}
+        # AMAZON_CSRF: ${{ secrets.AMAZON_CSRF }}
+      run: python3 check_workday.py
+
+    - name: Commit Changes (if any)
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        git add *.txt
+        git add companies.json
+
+        if git diff --cached --quiet; then
+            echo "No changes to commit."
+        else
+            git commit -m "Updated Workday application status [skip ci]"
+            git push
+        fi
