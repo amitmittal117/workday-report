@@ -27,6 +27,10 @@ jobs:
         NVIDIA_CSRF: ${{ secrets.NVIDIA_CSRF }}
         ADOBE_COOKIE: ${{ secrets.ADOBE_COOKIE }}
         ADOBE_CSRF: ${{ secrets.ADOBE_CSRF }}
+        MEDTRONIC_COOKIE: ${{ secrets.MEDTRONIC_COOKIE }}
+        MEDTRONIC_CSRF: ${{ secrets.MEDTRONIC_CSRF }}
+        WALMART_COOKIE: ${{ secrets.WALMART_COOKIE }}
+        WALMART_CSRF: ${{ secrets.WALMART_CSRF }}
         # Add more companies below as you expand
         # AMAZON_COOKIE: ${{ secrets.AMAZON_COOKIE }}
         # AMAZON_CSRF: ${{ secrets.AMAZON_CSRF }}
