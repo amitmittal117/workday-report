@@ -1,0 +1,20 @@
+{
+  "companies": [
+    {
+      "name": "nvidia",
+      "base_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/applications",
+      "type": "active",
+      "limit": 4,
+      "cookie_secret": "NVIDIA_COOKIE",
+      "csrf_secret": "NVIDIA_CSRF"
+    },
+    {
+      "name": "adobe",
+      "base_url": "https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/applications",
+      "type": "active",
+      "limit": 4,
+      "cookie_secret": "ADOBE_COOKIE",
+      "csrf_secret": "ADOBE_CSRF"
+    }
+  ]
+}
