@@ -22,3 +22,27 @@ Requisition: JR2007199
 Status: Application Received
 Applied On: October 31, 2025
 ------------------------------
+
+
+===== 2025-11-15 23:56:36 UTC =====
+
+Job Title: Site Reliability Engineer, HPC and LSF
+Requisition: JR2006583
+Status: Application Received
+Applied On: November 5, 2025
+------------------------------
+Job Title: Software Engineer, Robotics - Isaac Lab
+Requisition: JR2007292
+Status: Application Received
+Applied On: November 3, 2025
+------------------------------
+Job Title: Systems Software Engineer, GeForce NOW Low Latency Streaming Technology - New College Grad 2025
+Requisition: JR2007180
+Status: Application Received
+Applied On: November 1, 2025
+------------------------------
+Job Title: Software Engineer, AI Infrastructure - New College Grad 2026
+Requisition: JR2007199
+Status: Application Received
+Applied On: October 31, 2025
+------------------------------
