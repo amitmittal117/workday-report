@@ -15,6 +15,22 @@
       "limit": 4,
       "cookie_secret": "ADOBE_COOKIE",
       "csrf_secret": "ADOBE_CSRF"
+    },
+    {
+      "name": "medtronic",
+      "base_url": "https://medtronic.wd1.myworkdayjobs.com/wday/cxs/medtronic/redeploymentmedtroniccareers/applications",
+      "type": "active",
+      "limit": 4,
+      "cookie_secret": "MEDTRONIC_COOKIE",
+      "csrf_secret": "MEDTRONIC_CSRF"
+    },
+    {
+      "name": "walmart",
+      "base_url": "https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/applications",
+      "type": "active",
+      "limit": 4,
+      "cookie_secret": "WALMART_COOKIE",
+      "csrf_secret": "WALMART_CSRF"
     }
   ]
 }
