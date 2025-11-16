@@ -118,3 +118,27 @@ Requisition: R161761
 Status: In Process
 Applied On: November 5, 2025
 ------------------------------
+
+
+===== 2025-11-16 01:34:26 UTC =====
+
+Job Title: Software Engineer
+Requisition: R161269
+Status: In Process
+Applied On: November 13, 2025
+------------------------------
+Job Title: 2026 University Graduate - Machine Learning Engineer
+Requisition: R160133
+Status: In Process
+Applied On: November 9, 2025
+------------------------------
+Job Title: 2026 University Graduate - Applied Scientist
+Requisition: R160136
+Status: In Process
+Applied On: November 9, 2025
+------------------------------
+Job Title: Software Development Engineer
+Requisition: R161761
+Status: In Process
+Applied On: November 5, 2025
+------------------------------
